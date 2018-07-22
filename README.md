@@ -1,5 +1,5 @@
 # DbConector
-1. Master/Slave ConnectionManager in Java : 
+1. Master/Slave ConnectionManager in Java :
 – class called ConnectionManager with 2 database servers configured - PostgreSQL/MySQL
 – using pool for database connections 
 – implements failover access to database 
