@@ -1,2 +1,11 @@
 # DbConector
-1. Master Slave ConnectionManager Try to implement e.g.: in Java : – class called ConnectionManager with 2 database servers configured (you can choose any database server) – use pool for database connections – implement failover access to database – if one database dies the ConnectionManager should automatically switch to second database server – during failover mode checks if master DB server is again ready to use and establish all new connections to master DB server afterwards – do not use any open source library for ConnectionManager implementation 2. Logging System Try to implement in Java: – try to implement Log4j appender which stores log data into data storage – try to implement fulltext search on your log data – choose any appropriate data storage – describe pros / cons of your solution
+1. Master/Slave ConnectionManager in Java : 
+– class called ConnectionManager with 2 database servers configured - PostgreSQL/MySQL
+– using pool for database connections 
+– implements failover access to database 
+– if one database dies the ConnectionManager should automatically switch to second database server 
+– during failover mode checks if master DB server is again ready to use and establish all new connections to master DB server afterwards
+
+2. Logging System implement in Java: 
+– Log4j appender which stores log data into data storage 
+– fulltext search on log data 
